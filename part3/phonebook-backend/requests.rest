@@ -1,0 +1,29 @@
+### تمرین ۳.۴: تست حذف یک مخاطب با شناسه ۲
+DELETE http://localhost:3001/api/persons/2
+
+### تمرین ۳.۵: تست اضافه کردن مخاطب جدید معتبر
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Ali Reza",
+  "number": "0912-0000000"
+}
+
+### تمرین ۳.۶: تست خطا در صورت نبود شماره تلفن
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Sara"
+}
+
+### تمرین ۳.۶: تست خطا در صورت تکراری بودن نام
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Arto Hellas",
+  "number": "040-999999"
+}
+
