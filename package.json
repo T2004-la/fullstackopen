@@ -1,5 +1,25 @@
 {
   "dependencies": {
     "axios": "^1.19.0"
-  }
+  },
+  "name": "fullstackopen-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T2004-la/fullstackopen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/T2004-la/fullstackopen/issues"
+  },
+  "homepage": "https://github.com/T2004-la/fullstackopen#readme"
 }
